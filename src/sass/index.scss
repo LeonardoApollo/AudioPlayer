@@ -1,0 +1,15 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'blocks/player';
+@import 'blocks/btn';
+
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e9ed;
+}
