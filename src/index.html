@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be With Music</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <div class="title">Now Playing</div>
+            <div class="cover">
+                <img class="cover__img" src="./img/song1.jpg" alt="Rift">
+            </div>
+            <div class="song">Rob Gasser & Miss Lina - Rift [NCS Release]</div>
+            <audio id="audio" src="./audio/Rob Gasser & Miss Lina - Rift [NCS Release].mp3" class="audio"></audio>
+            <div class="animation">
+                <canvas class="canvas" id="canvas1"></canvas>
+            </div>
+            <div class="progress__container">
+                <div class="progress"></div>
+            </div>
+            <div class="buttons">
+                <div class="btn prev">
+                    <img src="./icons/rewind.svg" alt="prev">
+                </div>
+                <div class="btn play">
+                    <img class="img__src" src="./icons/play.svg" alt="play">
+                </div>
+                <div class="btn next">
+                    <img src="./icons/forward.svg" alt="next">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
